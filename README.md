@@ -13,3 +13,5 @@
     sudo pacman -S --needed blackarch
 ### Refresh the mirros incase you face slowness
     sudo pacman-mirrors --fasttrack
+    sudo pacman -Sy
+### Then reinstall black arch again
