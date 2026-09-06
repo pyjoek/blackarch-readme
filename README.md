@@ -10,8 +10,12 @@
 ### sync the mirror keys
     sudo pacman -Sy
 ### Install blackarch tools
-    sudo pacman -S --needed blackarch
+    sudo pacman -S --needed blackarch --ignore=padoracle,shuji,plutil
 ### Refresh the mirros incase you face slowness
     sudo pacman-mirrors --fasttrack
     sudo pacman -Sy
 ### Then reinstall black arch again
+
+## Further corrections
+    sudo pacman -S manjaro-keyring
+    sudo pacman-key --populate manjaro archlinux
