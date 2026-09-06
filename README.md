@@ -11,3 +11,5 @@
     sudo pacman -Sy
 ### Install blackarch tools
     sudo pacman -S --needed blackarch
+### Refresh the mirros incase you face slowness
+    sudo pacman-mirrors --fasttrack
